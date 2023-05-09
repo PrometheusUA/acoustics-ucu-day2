@@ -1,0 +1,5 @@
+torch==2.0.1
+torchaudio==2.0.2
+g2p-en==2.1.0
+tqdm==4.64.1
+praatio==6.0.0
