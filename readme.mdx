@@ -17,3 +17,9 @@ We can see analisation example for sample 174-50561-0:
 
 ![Praat sample](./Praat.png)
 
+Here we can see that there is a small (0.22 seconds) delay between first sound peak and first segmented sound. 
+Also the last one is 0.15 seconds after last significant sound. It can be related to convolution downsampling 
+and time needed for the model to "realize" heard piece of sound. This effect is stable across many seen samples.
+
+Alignments are pretty accurate, but there were several mislabelings in most of the predictions. But it is quite ok.
+Also, on this scale in most of the applications, sounds alignment and duration estimation quality is excellent.
